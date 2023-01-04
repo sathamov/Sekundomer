@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+    color: #fff;
+    background-image: url('../img/background-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+}
+
+.contener{
+    width: 500px;
+    height: 250px;
+    flex-direction: column;
+}
+
+.contener h2{
+    font-size: 5rem;
+    margin: 35px;
+    color: transparent;
+    -webkit-text-stroke: 2px #03a9f4;
+}
+
+h1{
+    position: relative;
+    color: transparent;
+    font-size: 90px;
+    margin-left: 390px;
+    color: #fff;
+    margin: auto;
+    bottom: 240px;
+}
+
+.contener h1:nth-child(1){
+    color: transparent;
+    -webkit-text-stroke: 1px springgreen; 
+}
+
+button{
+    position: relative;
+    background: #fff;
+    top: 50px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px ; 
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 30px;
+    transition: 0.6s;
+    border-radius: 30px;
+}
+
+button:hover{
+    background: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+    border: none;
+    color: white;
+    border-bottom-left-radius: 1px;
+    border-top-right-radius: 1px;
+    
+}
+
+.watch{
+    color: yellowgreen
+    font-family: 'Public Sans', sans-serif;
+}
